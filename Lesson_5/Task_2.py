@@ -5,12 +5,13 @@ class FormulaError(Exception):
 print("Введите формулу которая состоит из двух знаков и оператора + или - через пробел")
 formula = input("Введите число согласно формуле: ")
 formula_input = str.split(formula)
+
+if len(formula_input) != 3:
+    raise FormulaError("Неверный формат формулы")
+if formula_input[1] not in ("+", "-"):
+    raise FormulaError("Неверный оператор")
 try:
     try:
-        if len(formula_input) != 3:
-            raise FormulaError("Неверный формат формулы")
-        if formula_input[1] not in ("+", "-"):
-            raise FormulaError("Неверный оператор")
         num_1 = float(formula_input[0])
         num_2 = float(formula_input[2])
     except ValueError:
