@@ -1,5 +1,5 @@
-lst = [23, 2, 3, 0]
-
+# lst = [23, 2, 3, 0]
+#
 
 def change_list(lst):
     if len(lst) < 2:
@@ -8,6 +8,6 @@ def change_list(lst):
 
         lst[0], lst[-1] = lst[-1], lst[0]
         return lst
-
-
-print(change_list(lst))
+#
+#
+# print(change_list(lst))

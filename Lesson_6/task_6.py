@@ -8,6 +8,6 @@ def sum_range(start, end):
         total_sum += num
 
     return total_sum
-
-
-print(sum_range(102, 15))
+#
+#
+# print(sum_range(102, 15))
