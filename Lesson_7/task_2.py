@@ -1,13 +1,13 @@
 import os
 import pickle
 
-# Указываем директорию для обхода
+
 directory = '/Users/admin/Documents/'
 
-# Указываем граничное значение количества папок и файлов
+
 limit = 1000
 
-# Создаем словарь для хранения результатов
+
 results = {
     'directories': 0,
     'files': 0,
@@ -18,18 +18,18 @@ results = {
     'processed_paths': set(),
 }
 
-# Пытаемся загрузить ранее сохраненное состояние из файла
+
 state_file = 'state.pickle'
 if os.path.exists(state_file):
     with open(state_file, 'rb') as f:
         try:
             saved_results = pickle.load(f)
-            # Обновляем результаты только если мы загрузили хотя бы одно значение из файла
+
             results.update(saved_results)
         except:
             pass
 
-# Рекурсивная функция для обхода всех файлов и папок
+
 def traverse_directory(path, results, limit):
     if len(results['processed_paths']) >= limit:
         return
@@ -55,19 +55,15 @@ def traverse_directory(path, results, limit):
                 if length < results['shortest_name'][1]:
                     results['shortest_name'] = (item_path, length)
     except KeyboardInterrupt:
-        # Если пользователь прервал выполнение скрипта, сохраняем результаты в файл и выходим
+
         with open(state_file, 'wb') as f:
             pickle.dump(results, f)
         return
 
-# Запускаем обход директории
+
 traverse_directory(directory, results, limit)
 
-# Выводим результаты
 
-# Сохраняем результаты в файл
-# Записываем результаты в файл
-# Записываем результаты в файл
 with open('results.txt', 'w') as f:
     f.write(f"Number of directories: {results['directories']}\n")
     f.write(f"Number of files: {results['files']}\n")
