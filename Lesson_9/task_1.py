@@ -4,8 +4,8 @@ import json
 with open("group_people.json") as f:
     json_file = json.load(f)
 
-max_group_id = ""  # Идентификатор группы с наибольшим количеством женщин после 1977 года
-max_female_count = 0  # Количество женщин после 1977 года в группе
+max_group_id = ""
+max_female_count = 0
 
 for group in json_file:
     group_id = group["id_group"]
