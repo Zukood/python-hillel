@@ -15,7 +15,7 @@ def measure_time(func):
 
 @measure_time
 def my_function():
-    # Код функції
+
     pass
 
 
