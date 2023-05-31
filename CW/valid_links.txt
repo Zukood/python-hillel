@@ -1,0 +1,10 @@
+https://www.google.co.th/imghp?hl=th&tab=wi
+https://maps.google.co.th/maps?hl=th&tab=wl
+https://www.youtube.com/?tab=w1
+https://www.google.com/preferences?hl=th
+https://www.google.com/advanced_search?hl=th&authuser=0
+https://www.google.com/setprefs?sig=0_baOuNIztgMGI_Rd5M38KeE-pJQ4%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjd_pDF4p7_AhWQq5UCHYaZB7UQ2ZgBCAU
+https://www.google.com/services/
+https://www.google.com/setprefdomain?prefdom=TH&prev=https://www.google.co.th/&sig=K_PCY-7KlE9-1XuZKnujNtPb8Hrn4%3D
+https://www.google.com/intl/th/policies/privacy/
+https://www.google.com/intl/th/policies/terms/

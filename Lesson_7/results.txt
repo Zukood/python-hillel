@@ -1,0 +1,6 @@
+Number of directories: 1736
+Number of files: 10782
+Largest file: /Users/admin/Documents/QA/soapUI/itsquiz-wall/node_modules/geoip-lite/data/geoip-city.dat (79316352 bytes)
+Smallest file: /Users/admin/Documents/.localized (0 bytes)
+Longest filename: /Users/admin/Documents/QA/books/Software Testing - Base Course (Svyatoslav Kulikov) - 3rd edition - RU.pdf (74 characters)
+Shortest filename: /Users/admin/Documents/QA/soapUI/itsquiz-wall/node_modules/.bin/he (2 characters)

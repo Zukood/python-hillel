@@ -1,0 +1,9 @@
+https://play.google.com/?hl=th&tab=w8
+https://news.google.com/?tab=wn
+https://mail.google.com/mail/?tab=wm
+https://drive.google.com/?tab=wo
+https://www.google.co.th/intl/th/about/products?tab=wh
+http://www.google.co.th/history/optout?hl=th
+https://accounts.google.com/ServiceLogin?hl=th&passive=true&continue=https://www.google.com/&ec=GAZAAQ
+https://www.google.com/intl/th/ads/
+https://www.google.com/intl/th/about.html
